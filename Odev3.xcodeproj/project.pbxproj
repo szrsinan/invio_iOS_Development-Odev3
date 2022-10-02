@@ -13,6 +13,10 @@
 		3B31422F28E8360300B10497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B31422D28E8360300B10497 /* Main.storyboard */; };
 		3B31423128E8360300B10497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B31423028E8360300B10497 /* Assets.xcassets */; };
 		3B31423428E8360300B10497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B31423228E8360300B10497 /* LaunchScreen.storyboard */; };
+		3B31423D28E83CA300B10497 /* ShadowsIntoLight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B31423C28E83CA300B10497 /* ShadowsIntoLight-Regular.ttf */; };
+		3B31423F28E83D3400B10497 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B31423E28E83D3400B10497 /* Pacifico-Regular.ttf */; };
+		3B31424128E83DBC00B10497 /* NotoSansMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B31424028E83DBC00B10497 /* NotoSansMono-Regular.ttf */; };
+		3B31424328E83E0800B10497 /* NotoSansMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B31424228E83E0800B10497 /* NotoSansMono-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3B31423028E8360300B10497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B31423328E8360300B10497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B31423528E8360300B10497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B31423C28E83CA300B10497 /* ShadowsIntoLight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShadowsIntoLight-Regular.ttf"; sourceTree = "<group>"; };
+		3B31423E28E83D3400B10497 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		3B31424028E83DBC00B10497 /* NotoSansMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMono-Regular.ttf"; sourceTree = "<group>"; };
+		3B31424228E83E0800B10497 /* NotoSansMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMono-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,20 @@
 				3B31423028E8360300B10497 /* Assets.xcassets */,
 				3B31423228E8360300B10497 /* LaunchScreen.storyboard */,
 				3B31423528E8360300B10497 /* Info.plist */,
+				3B31423B28E83C8000B10497 /* Fonts */,
 			);
 			path = Odev3;
+			sourceTree = "<group>";
+		};
+		3B31423B28E83C8000B10497 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3B31423C28E83CA300B10497 /* ShadowsIntoLight-Regular.ttf */,
+				3B31423E28E83D3400B10497 /* Pacifico-Regular.ttf */,
+				3B31424028E83DBC00B10497 /* NotoSansMono-Regular.ttf */,
+				3B31424228E83E0800B10497 /* NotoSansMono-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +147,11 @@
 			files = (
 				3B31423428E8360300B10497 /* LaunchScreen.storyboard in Resources */,
 				3B31423128E8360300B10497 /* Assets.xcassets in Resources */,
+				3B31424328E83E0800B10497 /* NotoSansMono-Bold.ttf in Resources */,
+				3B31423D28E83CA300B10497 /* ShadowsIntoLight-Regular.ttf in Resources */,
 				3B31422F28E8360300B10497 /* Main.storyboard in Resources */,
+				3B31423F28E83D3400B10497 /* Pacifico-Regular.ttf in Resources */,
+				3B31424128E83DBC00B10497 /* NotoSansMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
